@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class RegisterRequest extends StringRequest {
 
-    private static final String RegisterRequestUrl = "https://37.60.168.102/api/Auth/register";
+    private static final String RegisterRequestUrl = "http://37.60.168.102/api/Auth/register";
     private Map<String, String> params;
 
     public RegisterRequest(String email, String password, Response.Listener<String> listener){
